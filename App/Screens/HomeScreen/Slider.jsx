@@ -23,6 +23,7 @@ export default function Slider() {
                 horizontal={true}
                 data={slider}
                 scrollIndicatorInsets={false}
+                
                 renderItem={({ item, index }) => (
                     <View style={{marginRight: 15}}>
                         <Image source={{ uri: item?.image?.url }}
@@ -36,7 +37,7 @@ export default function Slider() {
 
 const styles = StyleSheet.create({
     heading: {
-        fontSize: 20,
+        fontSize: 18,
         fontFamily: 'Outfit-Medium',
         marginBottom: 10
     },

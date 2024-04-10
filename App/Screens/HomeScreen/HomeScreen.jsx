@@ -3,6 +3,7 @@ import React from 'react'
 import Header from './Header'
 import Slider from './Slider'
 import Category from './Categories'
+import BusinessList from './BusinessList'
 
 export default function HomeScreen() {
     return (
@@ -17,6 +18,10 @@ export default function HomeScreen() {
             <View>
                 {/* category Screen */}
                 <Category />
+            </View>
+            <View style={{padding: 20}}>
+                {/* category Screen */}
+                <BusinessList />
             </View>
 
         </View>
