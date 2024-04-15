@@ -50,6 +50,9 @@ const getBusinessList = async () => {
         category {
           name
         }
+        images {
+          url
+        }
       }
     }
 `

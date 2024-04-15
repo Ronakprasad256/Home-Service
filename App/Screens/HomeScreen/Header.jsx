@@ -3,7 +3,7 @@ import React from 'react';
 import { useUser } from '@clerk/clerk-expo'
 import color from '../../../utils/color';
 import { FontAwesome } from '@expo/vector-icons';
-
+    
 export default function Header() {
     const { user, isLoading } = useUser();
     return user && (

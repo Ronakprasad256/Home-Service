@@ -12,7 +12,7 @@ export default function Categories() {
   const getCategories = () => {
     GlobalAPI.getCategory().then(resp => {
       setCategories(resp?.categories)
-
+      console.log(resp)
     })
   }
   return (
