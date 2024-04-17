@@ -4,7 +4,7 @@ import GlobalAPI from '../../../utils/GlobalAPI'
 
 export default function Categories() {
 
-  const [categories, setCategories] = useState()
+  const [categories, setCategories] = useState([])
   useEffect(() => {
     getCategories()
   }, [])
